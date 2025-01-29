@@ -1,0 +1,5 @@
+spring: 
+  main: 
+    web-application-type: NONE
+loggin: 
+  config: classpath:log4j2.xml
