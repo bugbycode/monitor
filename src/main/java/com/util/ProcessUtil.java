@@ -75,9 +75,9 @@ public class ProcessUtil {
 			long pId = monitorPid(monitorCmd);
 			
 			if(pId == -1) {
-				logger.debug("run \"{}\"", cmd);
+				logger.info("run \"{}\"", cmd);
 				String result = CommandUtil.run(cmd);
-				logger.debug(result);
+				logger.info(result);
 				
 				pId = monitorPid(monitorCmd);
 			}

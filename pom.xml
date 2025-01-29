@@ -43,7 +43,7 @@
 	</dependency>
   </dependencies>
   <build>
-	<finalName>trading</finalName>
+	<finalName>monitor</finalName>
 	<plugins>
 		<plugin>
 			<groupId>org.springframework.boot</groupId>
